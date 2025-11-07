@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\QuizService",
+    "\\QuizService\\QuizService",
+    "\\ResultsService",
+    "\\ResultsService\\ResultsService",
+    "\\ResultsService\\ResultsService\\Models",
+    "\\sql",
+    "\\UserService",
+    "\\UserService\\UserService",
+    "\\UserService\\UserService\\Models"
+  ],
+  "SelectedNode": "\\UserService\\UserService\\appsettings.json",
+  "PreviewInSolutionExplorer": false
+}

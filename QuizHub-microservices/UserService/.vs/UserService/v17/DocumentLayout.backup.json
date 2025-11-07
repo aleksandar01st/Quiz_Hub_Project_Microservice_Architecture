@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\UserService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EC7444-C09A-4F04-A8D0-560860601A68}|UserService\\UserService.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\quiz_hub_project_microservice_architecture\\quizhub-microservices\\userservice\\userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9EC7444-C09A-4F04-A8D0-560860601A68}|UserService\\UserService.csproj|solutionrelative:userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EC7444-C09A-4F04-A8D0-560860601A68}|UserService\\UserService.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\quiz_hub_project_microservice_architecture\\quizhub-microservices\\userservice\\userservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9EC7444-C09A-4F04-A8D0-560860601A68}|UserService\\UserService.csproj|solutionrelative:userservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EC7444-C09A-4F04-A8D0-560860601A68}|UserService\\UserService.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\quiz_hub_project_microservice_architecture\\quizhub-microservices\\userservice\\userservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9EC7444-C09A-4F04-A8D0-560860601A68}|UserService\\UserService.csproj|solutionrelative:userservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EC7444-C09A-4F04-A8D0-560860601A68}|UserService\\UserService.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\quiz_hub_project_microservice_architecture\\quizhub-microservices\\userservice\\userservice\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9EC7444-C09A-4F04-A8D0-560860601A68}|UserService\\UserService.csproj|solutionrelative:userservice\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EC7444-C09A-4F04-A8D0-560860601A68}|UserService\\UserService.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\quiz_hub_project_microservice_architecture\\quizhub-microservices\\userservice\\userservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9EC7444-C09A-4F04-A8D0-560860601A68}|UserService\\UserService.csproj|solutionrelative:userservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9EC7444-C09A-4F04-A8D0-560860601A68}|UserService\\UserService.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\quiz_hub_project_microservice_architecture\\quizhub-microservices\\userservice\\userservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D9EC7444-C09A-4F04-A8D0-560860601A68}|UserService\\UserService.csproj|solutionrelative:userservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\UserService\\UserService\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "UserService\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\UserService\\UserService\\Controllers\\UserController.cs",
+              "RelativeToolTip": "UserService\\Controllers\\UserController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAADwvy4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T14:57:39.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\UserService\\UserService\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "UserService\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\UserService\\UserService\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "UserService\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T14:56:59.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\UserService\\UserService\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "UserService\\Service\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\UserService\\UserService\\Service\\AuthService.cs",
+              "RelativeToolTip": "UserService\\Service\\AuthService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T14:28:51.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\UserService\\UserService\\Models\\User.cs",
+              "RelativeDocumentMoniker": "UserService\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\UserService\\UserService\\Models\\User.cs",
+              "RelativeToolTip": "UserService\\Models\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T14:22:04.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\UserService\\UserService\\Dockerfile",
+              "RelativeDocumentMoniker": "UserService\\Dockerfile",
+              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\UserService\\UserService\\Dockerfile",
+              "RelativeToolTip": "UserService\\Dockerfile",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-01T13:44:09.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\UserService\\UserService\\Program.cs",
+              "RelativeDocumentMoniker": "UserService\\Program.cs",
+              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\UserService\\UserService\\Program.cs",
+              "RelativeToolTip": "UserService\\Program.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T13:30:29.282Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

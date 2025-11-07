@@ -1,0 +1,98 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: quizhub-sql
+    environment:
+      SA_PASSWORD: "YourStrong!Passw0rd"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sql_data:/var/opt/mssql
+      - ./sql:/docker-entrypoint-initdb.d
+    networks:
+      - quizhub-network
+
+  userservice:
+    build:
+      context: ./UserService/UserService
+      dockerfile: Dockerfile
+    container_name: quizhub-user
+    ports:
+      - "5001:8080" # mapiramo lokalni 5001 na 8080 iz Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ConnectionStrings__UserConnection: "Server=sqlserver;Database=QuizHub_UserDB;User=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;"
+    depends_on:
+      - sqlserver
+    networks:
+      - quizhub-network
+
+  quizservice:
+    build:
+      context: ./QuizService/QuizService
+      dockerfile: Dockerfile
+    container_name: quizhub-quiz
+    ports:
+      - "5002:8082" # Dockerfile expose 8082
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ConnectionStrings__QuizConnection: "Server=sqlserver;Database=QuizHub_QuizDB;User=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;"
+    depends_on:
+      - sqlserver
+    networks:
+      - quizhub-network
+
+  resultsservice:
+    build:
+      context: ./ResultsService/ResultsService
+      dockerfile: Dockerfile
+    container_name: quizhub-result
+    ports:
+      - "5003:8083" # Dockerfile expose 8083
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ConnectionStrings__ResultConnection: "Server=sqlserver;Database=QuizHub_ResultDB;User=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;"
+      UserService__BaseUrl: "http://userservice:8080/api"
+      QuizService__BaseUrl: "http://quizservice:8082/api"
+    depends_on:
+      - sqlserver
+      - userservice
+      - quizservice
+    networks:
+      - quizhub-network
+
+  apigateway: # <--- Ovaj mora biti ovde, unutar `services`
+    build:
+      context: ./ApiGateway
+      dockerfile: Dockerfile
+    container_name: quizhub-gateway
+    ports:
+      - "5000:5000"
+    depends_on:
+      - userservice
+      - quizservice
+      - resultsservice
+    networks:
+      - quizhub-network
+
+  frontend:
+    build:
+      context: ../quizhub_frontend
+      dockerfile: Dockerfile
+    container_name: quizhub-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - apigateway
+    networks:
+      - quizhub-network
+    environment:
+      REACT_APP_API_URL: "http://apigateway:5000"
+
+volumes:
+  sql_data:
+
+networks:
+  quizhub-network:
+    driver: bridge

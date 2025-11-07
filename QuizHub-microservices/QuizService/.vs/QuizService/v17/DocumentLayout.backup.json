@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\QuizService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74071220-902F-41F5-9FDD-2E783CC9D45E}|QuizService\\QuizService.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\quiz_hub_project_microservice_architecture\\quizhub-microservices\\quizservice\\quizservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74071220-902F-41F5-9FDD-2E783CC9D45E}|QuizService\\QuizService.csproj|solutionrelative:quizservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74071220-902F-41F5-9FDD-2E783CC9D45E}|QuizService\\QuizService.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\quiz_hub_project_microservice_architecture\\quizhub-microservices\\quizservice\\quizservice\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74071220-902F-41F5-9FDD-2E783CC9D45E}|QuizService\\QuizService.csproj|solutionrelative:quizservice\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74071220-902F-41F5-9FDD-2E783CC9D45E}|QuizService\\QuizService.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\quiz_hub_project_microservice_architecture\\quizhub-microservices\\quizservice\\quizservice\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74071220-902F-41F5-9FDD-2E783CC9D45E}|QuizService\\QuizService.csproj|solutionrelative:quizservice\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74071220-902F-41F5-9FDD-2E783CC9D45E}|QuizService\\QuizService.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\quiz_hub_project_microservice_architecture\\quizhub-microservices\\quizservice\\quizservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{74071220-902F-41F5-9FDD-2E783CC9D45E}|QuizService\\QuizService.csproj|solutionrelative:quizservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74071220-902F-41F5-9FDD-2E783CC9D45E}|QuizService\\QuizService.csproj|c:\\users\\aleksandar stankovic\\documents\\ftn\\4. godina\\quiz_hub_project_microservice_architecture\\quizhub-microservices\\quizservice\\quizservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{74071220-902F-41F5-9FDD-2E783CC9D45E}|QuizService\\QuizService.csproj|solutionrelative:quizservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\QuizService\\QuizService\\Dockerfile",
+              "RelativeDocumentMoniker": "QuizService\\Dockerfile",
+              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\QuizService\\QuizService\\Dockerfile",
+              "RelativeToolTip": "QuizService\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-01T13:46:14.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\QuizService\\QuizService\\appsettings.json",
+              "RelativeDocumentMoniker": "QuizService\\appsettings.json",
+              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\QuizService\\QuizService\\appsettings.json",
+              "RelativeToolTip": "QuizService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-31T16:12:08.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\QuizService\\QuizService\\Program.cs",
+              "RelativeDocumentMoniker": "QuizService\\Program.cs",
+              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\QuizService\\QuizService\\Program.cs",
+              "RelativeToolTip": "QuizService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:08:15.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Quiz.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\QuizService\\QuizService\\Models\\Quiz.cs",
+              "RelativeDocumentMoniker": "QuizService\\Models\\Quiz.cs",
+              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\QuizService\\QuizService\\Models\\Quiz.cs",
+              "RelativeToolTip": "QuizService\\Models\\Quiz.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T14:37:58.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\QuizService\\QuizService\\Models\\Question.cs",
+              "RelativeDocumentMoniker": "QuizService\\Models\\Question.cs",
+              "ToolTip": "C:\\Users\\Aleksandar Stankovic\\Documents\\ftn\\4. godina\\Quiz_Hub_Project_Microservice_Architecture\\QuizHub-microservices\\QuizService\\QuizService\\Models\\Question.cs",
+              "RelativeToolTip": "QuizService\\Models\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T14:37:13.156Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
